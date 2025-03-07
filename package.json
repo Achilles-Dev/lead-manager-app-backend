@@ -1,13 +1,14 @@
 {
-  "name": "server",
+  "name": "leadmanagerappbackend",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "main": "api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/index.js",
     "postinstall": "npx prisma generate",
-    "vercel-build": "npx prisma generate && node api/index.js"
+    "vercel-build": "npx prisma generate && npx prisma migrate deploy && node api/index.js"
   },
   "keywords": [],
   "author": "",
