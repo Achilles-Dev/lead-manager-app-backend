@@ -6,7 +6,7 @@
 
 - Node.js
 - Express.js
-- Prism
+- Prisma
 - Postgresql
 
 ## Getting Started
@@ -17,7 +17,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Node.js
 - Express.js
-- Prism
+- Prisma
 - Postgresql
 
 ### Setup
